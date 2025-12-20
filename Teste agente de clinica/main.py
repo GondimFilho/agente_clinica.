@@ -15,9 +15,8 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 # ==========================================================
 # 🔑 ÁREA DE CHAVES (EDITE AQUI PARA RODAR)
 # ==========================================================
-# Coloque seus tokens dentro das aspas abaixo
-TELEGRAM_TOKEN = "8513090718:AAEB3WV1UDB7AiXrQqcMyW3bXKUat-eHQYg"
-DEEPSEEK_API_KEY = "sk-97ec3e2194be4b5984feb84e9ff23e2f"
+
+DEEPSEEK_API_KEY = ""
 
 # Configuração de Logs
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
